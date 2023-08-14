@@ -106,9 +106,9 @@ class CombineViewModel : ObservableObject{
 
 //MARK: - data model
 struct Post: Codable {
-    let id: Int
+    let id     : Int
     let userId : Int
-    let title: String
-    let body: String
+    let title  : String
+    let body   : String
 }
 

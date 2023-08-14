@@ -212,6 +212,14 @@
 		0D2208762A7CB4F6008772CC /* MyPlaygroundCombine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundCombine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0D2E9AF72A39CD1D00793DCB /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		0D35E827299D423100FFC99B /* GenericFunctionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFunctionExample.swift; sourceTree = "<group>"; };
+		0D4130342A828C8100E439BC /* Exercise3_3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise3_3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D4130382A82B71D00E439BC /* Exercise3_4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise3_4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D41303B2A82BC6000E439BC /* Exercise4_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise4_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D41303D2A833B3900E439BC /* Exercise4_2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise4_2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D41303F2A8341BE00E439BC /* Exercise4_3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise4_3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D4130412A8343E500E439BC /* Exercise4_4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise4_4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D4130432A83464800E439BC /* Ecercise4_5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Ecercise4_5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0D4130452A83494600E439BC /* Exercise4_6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Exercise4_6.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0D4308FC2A3D5FA300301A53 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
 		0D49151B2A03B6620064CCF0 /* AllCityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCityListView.swift; sourceTree = "<group>"; };
 		0D49151D2A03C0530064CCF0 /* CountryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
@@ -453,6 +461,103 @@
 			path = Generic;
 			sourceTree = "<group>";
 		};
+		0D4130332A828BE400E439BC /* unit testing with combine */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130342A828C8100E439BC /* Exercise3_3.playground */,
+			);
+			name = "unit testing with combine";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0D4130352A828CA100E439BC /* Unit Testing in Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130472A834A2400E439BC /* REST APIs */,
+				0D4130462A834A0000E439BC /* Advanced Concepts */,
+			);
+			path = "Unit Testing in Combine";
+			sourceTree = "<group>";
+		};
+		0D4130392A82B73400E439BC /* use combine to call an api endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130382A82B71D00E439BC /* Exercise3_4.playground */,
+			);
+			name = "use combine to call an api endpoint";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0D41303A2A82BC3100E439BC /* manage threads with schedular */ = {
+			isa = PBXGroup;
+			children = (
+				0D41303B2A82BC6000E439BC /* Exercise4_1.playground */,
+			);
+			path = "manage threads with schedular";
+			sourceTree = "<group>";
+		};
+		0D41303C2A833AFA00E439BC /* custom pyblisher subscriber */ = {
+			isa = PBXGroup;
+			children = (
+				0D41303D2A833B3900E439BC /* Exercise4_2.playground */,
+			);
+			path = "custom pyblisher subscriber";
+			sourceTree = "<group>";
+		};
+		0D41303E2A83418E00E439BC /* throttle publisher data with BackPressure */ = {
+			isa = PBXGroup;
+			children = (
+				0D41303F2A8341BE00E439BC /* Exercise4_3.playground */,
+			);
+			path = "throttle publisher data with BackPressure";
+			sourceTree = "<group>";
+		};
+		0D4130402A8343C800E439BC /* typeErasures */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130412A8343E500E439BC /* Exercise4_4.playground */,
+			);
+			path = typeErasures;
+			sourceTree = "<group>";
+		};
+		0D4130422A83460C00E439BC /* combine advanced operators */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130432A83464800E439BC /* Ecercise4_5.playground */,
+			);
+			path = "combine advanced operators";
+			sourceTree = "<group>";
+		};
+		0D4130442A83492000E439BC /* api call with schedular and backPressure */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130452A83494600E439BC /* Exercise4_6.playground */,
+			);
+			path = "api call with schedular and backPressure";
+			sourceTree = "<group>";
+		};
+		0D4130462A834A0000E439BC /* Advanced Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				0D41303A2A82BC3100E439BC /* manage threads with schedular */,
+				0D41303C2A833AFA00E439BC /* custom pyblisher subscriber */,
+				0D41303E2A83418E00E439BC /* throttle publisher data with BackPressure */,
+				0D4130402A8343C800E439BC /* typeErasures */,
+				0D4130422A83460C00E439BC /* combine advanced operators */,
+				0D4130442A83492000E439BC /* api call with schedular and backPressure */,
+			);
+			path = "Advanced Concepts";
+			sourceTree = "<group>";
+		};
+		0D4130472A834A2400E439BC /* REST APIs */ = {
+			isa = PBXGroup;
+			children = (
+				0D4130332A828BE400E439BC /* unit testing with combine */,
+				0D4130392A82B73400E439BC /* use combine to call an api endpoint */,
+			);
+			path = "REST APIs";
+			sourceTree = "<group>";
+		};
 		0D4308FB2A3D5F9200301A53 /* test codes */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,9 +612,9 @@
 			children = (
 				0D9DAA0A2990AF3C009A570E /* Unit Testing */,
 				0D88EB8C2994B95A00785780 /* Combine */,
+				0D4130352A828CA100E439BC /* Unit Testing in Combine */,
 				0DBB415629C579B80011486A /* Advanced Learning BootCamp */,
 				0D2E9AF62A39B44300793DCB /* 100 Days with swift */,
-				0D2208762A7CB4F6008772CC /* MyPlaygroundCombine.playground */,
 				0D07EFD929DBCC61002942EF /* Alamofire */,
 				0D8D20EE29FB863300E267D1 /* Realm */,
 				0DB0E32829D808B300A3F4E1 /* CoreData */,
@@ -750,6 +855,7 @@
 		0D9DAA0A2990AF3C009A570E /* Unit Testing */ = {
 			isa = PBXGroup;
 			children = (
+				0D2208762A7CB4F6008772CC /* MyPlaygroundCombine.playground */,
 				0D656F272A6C0D2400B3F06E /* calculator */,
 				0D75A8982A70CF4C004D112B /* async operation */,
 				0D8B15972A71208300C5A339 /* end point and mock data */,

@@ -85,6 +85,7 @@ enum APIError: Error {
     case serverError(Error)
     case decodingError(Error)
     case invalidURL(String)
+    case customError(String)
     
     var errorMessage : String {
         switch self{
@@ -94,6 +95,8 @@ enum APIError: Error {
             return "Decoding error occurred : \(error.localizedDescription)"
         case .invalidURL(let endPoint):
             return "Invalid URL error occurred : \(endPoint)"
+        case .customError(let error):
+            return error
         }
     }
 }
